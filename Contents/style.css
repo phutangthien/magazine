@@ -689,6 +689,15 @@ ul li ul li ul li {
 	border-left: 1px solid #a9a9a9;
 	border-radius: 4px 40px 40px 4px;
  }
+ .header-search label button[type="submit"]{
+    height: 35px;
+    width: 42px;
+    border: none;
+    border-left: 1px solid #a9a9a9;
+    border-radius: 4px 40px 40px 4px;
+    background-image: radial-gradient(ellipse farthest-side at 100% 100%,#f8f8f8 20%,#fafafa 81%,#fefefe 110%);
+ }
+
  .owl-carousel.cs-custom-nav.col-md-12{
  	margin: 0 ;
  }
@@ -3204,7 +3213,7 @@ text-align: center;
 .sitemap-links ul li:before {
     border-radius: 100%;
     color: #999;
-    content: "ï„?";
+    content: "ï¿½?";
     font-family: "icomoon";
     font-size: 11px;
     left: 0;
@@ -7200,6 +7209,10 @@ border-color: transparent transparent #f7f8f8 transparent;
 .select-style select
 {
 	  padding: 3px 3px 3px 30px;
+}
+
+.select-style-normal select{
+	padding: 3px 3px 3px 30px;
 }
 
 .cs-partner.owl-carousel .owl-item .item figure{overflow: hidden; }
