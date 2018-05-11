@@ -44,6 +44,11 @@
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 	</style>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<link rel="stylesheet" id="buttons-css" href="../../Contents/buttons.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="dashicons-css" href="../../Contents/dashicons.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="mediaelement-css" href="../../Contents/mediaelementplayer-legacy.min.css" type="text/css" media="all">
@@ -147,9 +152,9 @@
 					<div class="col-md-8">
 						<div class="right-side">
 							<nav class="top-nav">
-								<ul id="menu-top-menu" class="">
+								<ul id="menu-top-menu">
 									<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-133">
-										<a href="../../home.html">Home</a>
+										<a href="home.html">Home</a>
 									</li>
 									<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134">
 										<a href="http://uoce.chimpgroup.com/about-us/">About us</a>
@@ -170,12 +175,15 @@
 									<span>Search</span>
 									<input type="text" value="" name="s" id="s" placeholder="Enter your search">
 									<label>
-										<input type="submit" value="">
+										<button type="submit">
+											<i class="glyphicon glyphicon-search"></i>
+										</button>
 									</label>
 								</form>
 							</div>
 						</div>
 					</div>
+
 					<div class="col-md-12">
 						<div class="main-nav ">
 							<nav class="navigation">
@@ -185,13 +193,13 @@
 								<ul id="menu-main-menu" class="">
 									<li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-sub-dropdown menu-item-101 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a href="../../home.html">Home</a>
 									</li>
 									<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-sub-dropdown menu-item-127 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a>Pages</a>
 										<ul class="sub-dropdown">
@@ -220,7 +228,7 @@
 									</li>
 									<li id="menu-item-132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-132 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a href="http://uoce.chimpgroup.com/faq/#">Courses</a>
 										<ul class="sub-dropdown">
@@ -240,7 +248,7 @@
 									</li>
 									<li id="menu-item-130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-130 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a href="http://uoce.chimpgroup.com/faq/#">Events</a>
 										<ul class="sub-dropdown">
@@ -266,7 +274,7 @@
 									</li>
 									<li id="menu-item-131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-131 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a href="http://uoce.chimpgroup.com/faq/#">Team</a>
 										<ul class="sub-dropdown">
@@ -289,7 +297,7 @@
 									</li>
 									<li id="menu-item-129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-129 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a href="http://uoce.chimpgroup.com/faq/#">Gallery</a>
 										<ul class="sub-dropdown">
@@ -304,7 +312,7 @@
 											</li>
 											<li id="menu-item-302" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-302 parentIcon">
 												<span class="responsive-btn">
-													<i class="icon-plus8"></i>
+													<i class="material-icons">add</i>
 												</span>
 												<a href="">Detail Pages</a>
 												<ul class="sub-dropdown">
@@ -320,7 +328,7 @@
 									</li>
 									<li id="menu-item-128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-128 parentIcon">
 										<span class="responsive-btn">
-											<i class="icon-plus8"></i>
+											<i class="material-icons">add</i>
 										</span>
 										<a href="">Blog</a>
 										<ul class="sub-dropdown">
@@ -335,7 +343,7 @@
 											</li>
 											<li id="menu-item-510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-sub-dropdown menu-item-510 parentIcon">
 												<span class="responsive-btn">
-													<i class="icon-plus8"></i>
+													<i class="material-icons">add</i>
 												</span>
 												<a href="">Blog Detail</a>
 												<ul class="sub-dropdown">
@@ -390,19 +398,17 @@
 
 								<div class="search-course">
 
-									<h6></h6>
-
 									<form action="http://uoce.chimpgroup.com/course-search/" method="get">
 
 										<ul>
 											<li>
-												<i class="icon-book8"></i>
+												<i class="glyphicon glyphicon-book"></i>
 												<input type="text" value="" placeholder="Search by keyword" name="uoc_title">
 											</li>
 
 											<li>
-												<i class="icon-graduation"></i>
-												<label class="select-style">
+												<i class="glyphicon glyphicon-education"></i>
+												<div class="select-style-normal">
 
 													<select name="cat" id="cat" class="postform">
 														<option value="-1">Select category</option>
@@ -416,76 +422,78 @@
 														<option class="level-0" value="31">Economics</option>
 													</select>
 
-												</label>
+												</div>
+
 
 											</li>
 
 											<li>
-												<i class="icon-world"></i>
-												<label class="select-style">
+												<i class="glyphicon glyphicon-asterisk"></i>
+												<div class="select-style-normal">
 													<select name="cs_campus">
 														<option>Select Campus</option>
 
 														WP_Query Object ( [query] =&gt; Array ( [posts_per_page] =&gt; -1 [post_type] =&gt; campus [post_status] =&gt; publish )
-														[query_vars] =&gt; Array ( [posts_per_page] =&gt; -1 [post_type] =&gt; campus [post_status] =&gt; publish [error]
-														=&gt; [m] =&gt; [p] =&gt; 0 [post_parent] =&gt; [subpost] =&gt; [subpost_id] =&gt; [attachment] =&gt; [attachment_id]
-														=&gt; 0 [name] =&gt; [static] =&gt; [pagename] =&gt; [page_id] =&gt; 0 [second] =&gt; [minute] =&gt; [hour]
-														=&gt; [day] =&gt; 0 [monthnum] =&gt; 0 [year] =&gt; 0 [w] =&gt; 0 [category_name] =&gt; [tag] =&gt; [cat] =&gt;
-														[tag_id] =&gt; [author] =&gt; [author_name] =&gt; [feed] =&gt; [tb] =&gt; [paged] =&gt; 0 [meta_key] =&gt;
-														[meta_value] =&gt; [preview] =&gt; [s] =&gt; [sentence] =&gt; [title] =&gt; [fields] =&gt; [menu_order] =&gt;
-														[embed] =&gt; [category__in] =&gt; Array ( ) [category__not_in] =&gt; Array ( ) [category__and] =&gt; Array
-														( ) [post__in] =&gt; Array ( ) [post__not_in] =&gt; Array ( ) [post_name__in] =&gt; Array ( ) [tag__in] =&gt;
-														Array ( ) [tag__not_in] =&gt; Array ( ) [tag__and] =&gt; Array ( ) [tag_slug__in] =&gt; Array ( ) [tag_slug__and]
-														=&gt; Array ( ) [post_parent__in] =&gt; Array ( ) [post_parent__not_in] =&gt; Array ( ) [author__in] =&gt;
-														Array ( ) [author__not_in] =&gt; Array ( ) [ignore_sticky_posts] =&gt; [suppress_filters] =&gt; [cache_results]
-														=&gt; 1 [update_post_term_cache] =&gt; 1 [lazy_load_term_meta] =&gt; 1 [update_post_meta_cache] =&gt; 1 [nopaging]
-														=&gt; 1 [comments_per_page] =&gt; 50 [no_found_rows] =&gt; [order] =&gt; DESC ) [tax_query] =&gt; WP_Tax_Query
-														Object ( [queries] =&gt; Array ( ) [relation] =&gt; AND [table_aliases:protected] =&gt; Array ( ) [queried_terms]
-														=&gt; Array ( ) [primary_table] =&gt; uoce_posts [primary_id_column] =&gt; ID ) [meta_query] =&gt; WP_Meta_Query
-														Object ( [queries] =&gt; Array ( ) [relation] =&gt; [meta_table] =&gt; [meta_id_column] =&gt; [primary_table]
-														=&gt; [primary_id_column] =&gt; [table_aliases:protected] =&gt; Array ( ) [clauses:protected] =&gt; Array (
-														) [has_or_relation:protected] =&gt; ) [date_query] =&gt; [request] =&gt; SELECT uoce_posts.* FROM uoce_posts
-														WHERE 1=1 AND uoce_posts.post_type = 'campus' AND ((uoce_posts.post_status = 'publish')) ORDER BY uoce_posts.post_date
-														DESC [posts] =&gt; Array ( [0] =&gt; WP_Post Object ( [ID] =&gt; 525 [post_author] =&gt; 1 [post_date] =&gt;
-														2015-08-06 09:07:27 [post_date_gmt] =&gt; 2015-08-06 09:07:27 [post_content] =&gt; [post_title] =&gt; New Campus
-														[post_excerpt] =&gt; [post_status] =&gt; publish [comment_status] =&gt; closed [ping_status] =&gt; closed [post_password]
-														=&gt; [post_name] =&gt; new-campus [to_ping] =&gt; [pinged] =&gt; [post_modified] =&gt; 2015-08-17 12:26:33
-														[post_modified_gmt] =&gt; 2015-08-17 12:26:33 [post_content_filtered] =&gt; [post_parent] =&gt; 0 [guid] =&gt;
-														http://uoce.chimpgroup.com/?post_type=campus&amp;p=525 [menu_order] =&gt; 0 [post_type] =&gt; campus [post_mime_type]
-														=&gt; [comment_count] =&gt; 0 [filter] =&gt; raw ) [1] =&gt; WP_Post Object ( [ID] =&gt; 524 [post_author]
-														=&gt; 1 [post_date] =&gt; 2015-08-06 09:06:28 [post_date_gmt] =&gt; 2015-08-06 09:06:28 [post_content] =&gt;
-														[post_title] =&gt; Old Campus [post_excerpt] =&gt; [post_status] =&gt; publish [comment_status] =&gt; closed
-														[ping_status] =&gt; closed [post_password] =&gt; [post_name] =&gt; old-campus [to_ping] =&gt; [pinged] =&gt;
-														[post_modified] =&gt; 2015-08-17 12:27:04 [post_modified_gmt] =&gt; 2015-08-17 12:27:04 [post_content_filtered]
-														=&gt; [post_parent] =&gt; 0 [guid] =&gt; http://uoce.chimpgroup.com/?post_type=campus&amp;p=524 [menu_order]
-														=&gt; 0 [post_type] =&gt; campus [post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt; raw ) [2] =&gt;
-														WP_Post Object ( [ID] =&gt; 523 [post_author] =&gt; 1 [post_date] =&gt; 2015-08-06 09:05:38 [post_date_gmt]
-														=&gt; 2015-08-06 09:05:38 [post_content] =&gt; [post_title] =&gt; Main Campus [post_excerpt] =&gt; [post_status]
-														=&gt; publish [comment_status] =&gt; closed [ping_status] =&gt; closed [post_password] =&gt; [post_name] =&gt;
-														main-campus [to_ping] =&gt; [pinged] =&gt; [post_modified] =&gt; 2015-08-17 12:26:51 [post_modified_gmt] =&gt;
-														2015-08-17 12:26:51 [post_content_filtered] =&gt; [post_parent] =&gt; 0 [guid] =&gt; http://uoce.chimpgroup.com/?post_type=campus&amp;p=523
-														[menu_order] =&gt; 0 [post_type] =&gt; campus [post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt;
-														raw ) ) [post_count] =&gt; 3 [current_post] =&gt; -1 [in_the_loop] =&gt; [post] =&gt; WP_Post Object ( [ID]
-														=&gt; 525 [post_author] =&gt; 1 [post_date] =&gt; 2015-08-06 09:07:27 [post_date_gmt] =&gt; 2015-08-06 09:07:27
-														[post_content] =&gt; [post_title] =&gt; New Campus [post_excerpt] =&gt; [post_status] =&gt; publish [comment_status]
-														=&gt; closed [ping_status] =&gt; closed [post_password] =&gt; [post_name] =&gt; new-campus [to_ping] =&gt;
-														[pinged] =&gt; [post_modified] =&gt; 2015-08-17 12:26:33 [post_modified_gmt] =&gt; 2015-08-17 12:26:33 [post_content_filtered]
+														[query_vars] =&gt; Array ( [posts_per_page] =&gt; -1 [post_type] =&gt; campus [post_status] =&gt; publish
+														[error] =&gt; [m] =&gt; [p] =&gt; 0 [post_parent] =&gt; [subpost] =&gt; [subpost_id] =&gt; [attachment] =&gt;
+														[attachment_id] =&gt; 0 [name] =&gt; [static] =&gt; [pagename] =&gt; [page_id] =&gt; 0 [second] =&gt; [minute]
+														=&gt; [hour] =&gt; [day] =&gt; 0 [monthnum] =&gt; 0 [year] =&gt; 0 [w] =&gt; 0 [category_name] =&gt; [tag]
+														=&gt; [cat] =&gt; [tag_id] =&gt; [author] =&gt; [author_name] =&gt; [feed] =&gt; [tb] =&gt; [paged] =&gt;
+														0 [meta_key] =&gt; [meta_value] =&gt; [preview] =&gt; [s] =&gt; [sentence] =&gt; [title] =&gt; [fields] =&gt;
+														[menu_order] =&gt; [embed] =&gt; [category__in] =&gt; Array ( ) [category__not_in] =&gt; Array ( ) [category__and]
+														=&gt; Array ( ) [post__in] =&gt; Array ( ) [post__not_in] =&gt; Array ( ) [post_name__in] =&gt; Array ( )
+														[tag__in] =&gt; Array ( ) [tag__not_in] =&gt; Array ( ) [tag__and] =&gt; Array ( ) [tag_slug__in] =&gt; Array
+														( ) [tag_slug__and] =&gt; Array ( ) [post_parent__in] =&gt; Array ( ) [post_parent__not_in] =&gt; Array (
+														) [author__in] =&gt; Array ( ) [author__not_in] =&gt; Array ( ) [ignore_sticky_posts] =&gt; [suppress_filters]
+														=&gt; [cache_results] =&gt; 1 [update_post_term_cache] =&gt; 1 [lazy_load_term_meta] =&gt; 1 [update_post_meta_cache]
+														=&gt; 1 [nopaging] =&gt; 1 [comments_per_page] =&gt; 50 [no_found_rows] =&gt; [order] =&gt; DESC ) [tax_query]
+														=&gt; WP_Tax_Query Object ( [queries] =&gt; Array ( ) [relation] =&gt; AND [table_aliases:protected] =&gt;
+														Array ( ) [queried_terms] =&gt; Array ( ) [primary_table] =&gt; uoce_posts [primary_id_column] =&gt; ID )
+														[meta_query] =&gt; WP_Meta_Query Object ( [queries] =&gt; Array ( ) [relation] =&gt; [meta_table] =&gt; [meta_id_column]
+														=&gt; [primary_table] =&gt; [primary_id_column] =&gt; [table_aliases:protected] =&gt; Array ( ) [clauses:protected]
+														=&gt; Array ( ) [has_or_relation:protected] =&gt; ) [date_query] =&gt; [request] =&gt; SELECT uoce_posts.*
+														FROM uoce_posts WHERE 1=1 AND uoce_posts.post_type = 'campus' AND ((uoce_posts.post_status = 'publish'))
+														ORDER BY uoce_posts.post_date DESC [posts] =&gt; Array ( [0] =&gt; WP_Post Object ( [ID] =&gt; 525 [post_author]
+														=&gt; 1 [post_date] =&gt; 2015-08-06 09:07:27 [post_date_gmt] =&gt; 2015-08-06 09:07:27 [post_content] =&gt;
+														[post_title] =&gt; New Campus [post_excerpt] =&gt; [post_status] =&gt; publish [comment_status] =&gt; closed
+														[ping_status] =&gt; closed [post_password] =&gt; [post_name] =&gt; new-campus [to_ping] =&gt; [pinged] =&gt;
+														[post_modified] =&gt; 2015-08-17 12:26:33 [post_modified_gmt] =&gt; 2015-08-17 12:26:33 [post_content_filtered]
 														=&gt; [post_parent] =&gt; 0 [guid] =&gt; http://uoce.chimpgroup.com/?post_type=campus&amp;p=525 [menu_order]
-														=&gt; 0 [post_type] =&gt; campus [post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt; raw ) [comment_count]
-														=&gt; 0 [current_comment] =&gt; -1 [found_posts] =&gt; 3 [max_num_pages] =&gt; 0 [max_num_comment_pages] =&gt;
-														0 [is_single] =&gt; [is_preview] =&gt; [is_page] =&gt; [is_archive] =&gt; 1 [is_date] =&gt; [is_year] =&gt;
+														=&gt; 0 [post_type] =&gt; campus [post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt; raw ) [1]
+														=&gt; WP_Post Object ( [ID] =&gt; 524 [post_author] =&gt; 1 [post_date] =&gt; 2015-08-06 09:06:28 [post_date_gmt]
+														=&gt; 2015-08-06 09:06:28 [post_content] =&gt; [post_title] =&gt; Old Campus [post_excerpt] =&gt; [post_status]
+														=&gt; publish [comment_status] =&gt; closed [ping_status] =&gt; closed [post_password] =&gt; [post_name]
+														=&gt; old-campus [to_ping] =&gt; [pinged] =&gt; [post_modified] =&gt; 2015-08-17 12:27:04 [post_modified_gmt]
+														=&gt; 2015-08-17 12:27:04 [post_content_filtered] =&gt; [post_parent] =&gt; 0 [guid] =&gt; http://uoce.chimpgroup.com/?post_type=campus&amp;p=524
+														[menu_order] =&gt; 0 [post_type] =&gt; campus [post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt;
+														raw ) [2] =&gt; WP_Post Object ( [ID] =&gt; 523 [post_author] =&gt; 1 [post_date] =&gt; 2015-08-06 09:05:38
+														[post_date_gmt] =&gt; 2015-08-06 09:05:38 [post_content] =&gt; [post_title] =&gt; Main Campus [post_excerpt]
+														=&gt; [post_status] =&gt; publish [comment_status] =&gt; closed [ping_status] =&gt; closed [post_password]
+														=&gt; [post_name] =&gt; main-campus [to_ping] =&gt; [pinged] =&gt; [post_modified] =&gt; 2015-08-17 12:26:51
+														[post_modified_gmt] =&gt; 2015-08-17 12:26:51 [post_content_filtered] =&gt; [post_parent] =&gt; 0 [guid]
+														=&gt; http://uoce.chimpgroup.com/?post_type=campus&amp;p=523 [menu_order] =&gt; 0 [post_type] =&gt; campus
+														[post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt; raw ) ) [post_count] =&gt; 3 [current_post]
+														=&gt; -1 [in_the_loop] =&gt; [post] =&gt; WP_Post Object ( [ID] =&gt; 525 [post_author] =&gt; 1 [post_date]
+														=&gt; 2015-08-06 09:07:27 [post_date_gmt] =&gt; 2015-08-06 09:07:27 [post_content] =&gt; [post_title] =&gt;
+														New Campus [post_excerpt] =&gt; [post_status] =&gt; publish [comment_status] =&gt; closed [ping_status] =&gt;
+														closed [post_password] =&gt; [post_name] =&gt; new-campus [to_ping] =&gt; [pinged] =&gt; [post_modified]
+														=&gt; 2015-08-17 12:26:33 [post_modified_gmt] =&gt; 2015-08-17 12:26:33 [post_content_filtered] =&gt; [post_parent]
+														=&gt; 0 [guid] =&gt; http://uoce.chimpgroup.com/?post_type=campus&amp;p=525 [menu_order] =&gt; 0 [post_type]
+														=&gt; campus [post_mime_type] =&gt; [comment_count] =&gt; 0 [filter] =&gt; raw ) [comment_count] =&gt; 0
+														[current_comment] =&gt; -1 [found_posts] =&gt; 3 [max_num_pages] =&gt; 0 [max_num_comment_pages] =&gt; 0
+														[is_single] =&gt; [is_preview] =&gt; [is_page] =&gt; [is_archive] =&gt; 1 [is_date] =&gt; [is_year] =&gt;
 														[is_month] =&gt; [is_day] =&gt; [is_time] =&gt; [is_author] =&gt; [is_category] =&gt; [is_tag] =&gt; [is_tax]
 														=&gt; [is_search] =&gt; [is_feed] =&gt; [is_comment_feed] =&gt; [is_trackback] =&gt; [is_home] =&gt; [is_404]
 														=&gt; [is_embed] =&gt; [is_paged] =&gt; [is_admin] =&gt; [is_attachment] =&gt; [is_singular] =&gt; [is_robots]
 														=&gt; [is_posts_page] =&gt; [is_post_type_archive] =&gt; 1 [query_vars_hash:WP_Query:private] =&gt; 95e476e45c44f7af5fe8303fff2a0534
-														[query_vars_changed:WP_Query:private] =&gt; [thumbnails_cached] =&gt; [stopwords:WP_Query:private] =&gt; [compat_fields:WP_Query:private]
-														=&gt; Array ( [0] =&gt; query_vars_hash [1] =&gt; query_vars_changed ) [compat_methods:WP_Query:private] =&gt;
-														Array ( [0] =&gt; init_query_flags [1] =&gt; parse_tax_query ) )
+														[query_vars_changed:WP_Query:private] =&gt; [thumbnails_cached] =&gt; [stopwords:WP_Query:private] =&gt;
+														[compat_fields:WP_Query:private] =&gt; Array ( [0] =&gt; query_vars_hash [1] =&gt; query_vars_changed ) [compat_methods:WP_Query:private]
+														=&gt; Array ( [0] =&gt; init_query_flags [1] =&gt; parse_tax_query ) )
 														<option value="525">New Campus</option>
 														<option value="524">Old Campus</option>
 														<option value="523">Main Campus</option>
 													</select>
-												</label>
+												</div>
 											</li>
 
 											<li class="search-submit">
@@ -499,6 +507,7 @@
 									</form>
 
 								</div>
+
 							</div>
 
 							<div class="widget widget_text">
@@ -519,7 +528,7 @@
 											</h5>
 											<span>SCIENCE</span>
 											<a href="mailto:info@example.com" class="emaildiv">
-												<i class="icon-envelope4"></i>info@example.com</a>
+												<i class="glyphicon glyphicon-envelope"></i>info@example.com</a>
 
 										</div>
 									</article>
@@ -536,7 +545,7 @@
 											</h5>
 											<span>FINE ARTS</span>
 											<a href="mailto:info@example.com" class="emaildiv">
-												<i class="icon-envelope4"></i>info@example.com</a>
+												<i class="glyphicon glyphicon-envelope"></i>info@example.com</a>
 
 										</div>
 									</article>
@@ -553,7 +562,7 @@
 											</h5>
 											<span>POLITICAL SCIENCE</span>
 											<a href="mailto:info@example.com" class="emaildiv">
-												<i class="icon-envelope4"></i>info@example.com</a>
+												<i class="glyphicon glyphicon-envelope"></i>info@example.com</a>
 
 										</div>
 									</article>
@@ -570,7 +579,7 @@
 											</h5>
 											<span>POLITICAL SCIENCE</span>
 											<a href="mailto:info@example.com" class="emaildiv">
-												<i class="icon-envelope4"></i>info@example.com</a>
+												<i class="glyphicon glyphicon-envelope"></i>info@example.com</a>
 
 										</div>
 									</article>
@@ -675,35 +684,24 @@
 																<span>Sort by</span>
 															</li>
 															<li>
-																<!--<div class="select-holder filter">
-                        <form action="" method="get" name="filter_by">
-                                <select>
-                                        <option value="">Filter By</option>
-                                                                                <option value=""></option>
-                                                         
-                                </select>     
-                        </form>   
-                         
-                           
-                        </div>-->
-															</li>
-															<li>
-																<div class="select-holder cat">
-																	<form action="#" method="get" name="filterable">
-
-																		<select name="filter_category" onchange="this.form.submit()">
-																			<option value="0"> Select Category</option>
-																			<option value="arts">Arts </option>
-																			<option value="economics">Economics </option>
-																			<option value="history">History </option>
-																			<option value="information-tecnology">Information Tecnology </option>
-																			<option value="libuary">Libuary </option>
-																			<option value="managment">Managment </option>
-																			<option value="medical">Medical </option>
-																			<option value="science">SCIENCE </option>
-																		</select>
-																	</form>
+																<i class="glyphicon glyphicon-education"></i>
+																<div class="select-style-normal">
+				
+																	<select name="cat" id="cat" class="postform">
+																		<option value="-1">Select category</option>
+																		<option class="level-0" value="23">SCIENCE</option>
+																		<option class="level-0" value="24">Libuary</option>
+																		<option class="level-0" value="26">Managment</option>
+																		<option class="level-0" value="27">Medical</option>
+																		<option class="level-0" value="28">Arts</option>
+																		<option class="level-0" value="29">Information Tecnology</option>
+																		<option class="level-0" value="30">History</option>
+																		<option class="level-0" value="31">Economics</option>
+																	</select>
+				
 																</div>
+				
+				
 															</li>
 														</ul>
 
@@ -711,18 +709,18 @@
 														<ul class="cs-views">
 															<li class="">
 																<a href="?page_switch=modern" title="modern">
-																	<i class="icon-list7"></i>
+																	<i class="fa fa-list"></i>
 																</a>
 															</li>
 															<li class="">
 																<a href="?page_switch=classic" title="classic">
-																	<i class="icon-th"></i>
+																	<i class="fa fa-th"></i>
 
 																</a>
 															</li>
 															<li class="">
 																<a href="?page_switch=simple" title="simple">
-																	<i class="icon-layout15"></i>
+																	<i class="fa fa-th-large"></i>
 																</a>
 															</li>
 														</ul>
@@ -792,7 +790,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -801,7 +799,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -810,14 +808,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">November 9, 2016</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/how-become-effective-teacher/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -877,7 +875,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -886,7 +884,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -895,14 +893,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">December 11, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/self-management/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -962,7 +960,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -971,7 +969,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -980,14 +978,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">July 11, 2013</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/phonics-and-reading/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1044,7 +1042,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -1053,7 +1051,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">3 Year</span>
 																					</div>
 																				</li>
@@ -1062,14 +1060,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">November 8, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/php-training-for-beginners/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1129,7 +1127,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -1138,7 +1136,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1147,14 +1145,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">July 8, 2013</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/environmental-reading/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1208,7 +1206,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1217,7 +1215,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1226,14 +1224,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">July 11, 2013</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/become-a-photographer/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1296,7 +1294,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1305,7 +1303,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">3 Year</span>
 																					</div>
 																				</li>
@@ -1314,14 +1312,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">July 8, 2016</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/how-to-write-effectively/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1378,7 +1376,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1387,7 +1385,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1396,14 +1394,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">July 9, 2013</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/basic-of-nature-photography/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1457,7 +1455,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -1466,7 +1464,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">3 Year</span>
 																					</div>
 																				</li>
@@ -1475,14 +1473,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">November 3, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/effective-teacher-course/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1539,7 +1537,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1548,7 +1546,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1557,14 +1555,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">October 16, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/algorithm-solver-epert/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1621,7 +1619,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1630,7 +1628,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1639,14 +1637,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">May 6, 2013</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/tools-of-the-trade-fundamental-english-writing/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1706,7 +1704,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1715,7 +1713,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1724,14 +1722,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">July 16, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/marketing-in-a-digital-world/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1788,7 +1786,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Larry Johnson</span>
 																					</div>
 																				</li>
@@ -1797,7 +1795,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">1Year</span>
 																					</div>
 																				</li>
@@ -1806,14 +1804,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">May 11, 2013</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/the-clinical-psychology-of-children-and-young-people/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1867,7 +1865,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -1876,7 +1874,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1885,14 +1883,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">October 12, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/mba-business-management/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -1949,7 +1947,7 @@
 																						 class="avatar avatar-96 photo"> </figure>
 																					<div class="details">
 																						<span class="title">Instructor</span>
-																						<i class="icon-user9"></i>
+																						<i class="glyphicon glyphicon-user"></i>
 																						<span class="value">Joseph Thompson</span>
 																					</div>
 																				</li>
@@ -1958,7 +1956,7 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Duration</span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">2 Year</span>
 																					</div>
 																				</li>
@@ -1967,14 +1965,14 @@
 																				<li>
 																					<div class="details">
 																						<span class="title"> Starts From </span>
-																						<i class="icon-folder5"></i>
+																						<i class="glyphicon glyphicon-folder-open"></i>
 																						<span class="value">November 25, 2015</span>
 																					</div>
 																				</li>
 
 																				<li class="courses-btn">
 																					<a href="http://uoce.chimpgroup.com/course/feature-of-location-based-search-that-provides/">
-																						<i class="icon-plus8"></i>
+																						<i class="material-icons">add</i>
 																					</a>
 																				</li>
 																			</ul>
@@ -2002,9 +2000,7 @@
 
 
 
-
 		<!-- Footer -->
-
 		<footer>
 
 			<div class="newsletter-section">
@@ -2045,7 +2041,7 @@
 							<form class="newsletter-from" action="javascript:cs_mailchimp_submit(&#39;http://uoce.chimpgroup.com/wp-content/themes/uoc&#39;,&#39;1&#39;,&#39;http://uoce.chimpgroup.com/wp-admin/admin-ajax.php&#39;)"
 							 id="mcform_1" method="post">
 								<div id="newsletter_mess_1" style="display:none" class="cs-error-msg"></div>
-								<i class="icon-envelope4"></i>
+								<i class="glyphicon glyphicon-envelope"></i>
 								<input id="cs_list_id" type="hidden" name="cs_list_id" value="0">
 								<input type="email" id="mc_email" name="mc_email" placeholder=" Enter Valid Email Address">
 								<input type="submit" id="btn_newsletter_1" value="Submit">
@@ -2066,21 +2062,21 @@
 							</div>
 							<ul>
 								<li>
-									<i class="icon-map-marker"></i>
+									<i class="glyphicon glyphicon-map-marker"></i>
 									<p>123 Eccles Old Road New East London</p>
 								</li>
 								<li>
-									<i class="icon-phone6"></i>
+									<i class="glyphicon glyphicon-earphone"></i>
 									<p>
 										<span>Telephone</span>02 562-958, 02 562-958</p>
 								</li>
 								<li>
-									<i class="icon-dribbble6"></i>
+									<i class="glyphicon glyphicon-plane"></i>
 									<p>
 										<span>International</span> 123 500 500 500</p>
 								</li>
 								<li>
-									<i class="icon-envelope4"></i>
+									<i class="glyphicon glyphicon-envelope"></i>
 									<p>
 										<span>email</span>
 										<a href="mailto:info@chimpgroup.com">info@chimpgroup.com</a>
@@ -2165,7 +2161,7 @@
 										<a target="blank" title="creative" href="http://twitter.com/search?q=%23creative">#creative</a> journey.
 										<a target="blank" title="https://t.co/yqriX7dHWn" href="https://t.co/yqriX7dHWn">https://t.co/yqriX7dHWn</a>
 										<br>
-										<i class="icon-twitter2"></i>
+										<i class="fa fa-twitter"></i>
 										<strong>&nbsp;August 18 2016</strong>
 									</div>
 								</li>
@@ -2178,7 +2174,7 @@
 										<a target="blank" title="https://t.co/TgHIR0XM49" href="https://t.co/TgHIR0XM49">https://t.co/TgHIR0XM49</a>
 										<a target="blank" title="girlsintech" href="http://twitter.com/search?q=%23girlsintech">#girlsintech</a> https:…
 										<br>
-										<i class="icon-twitter2"></i>
+										<i class="fa fa-twitter"></i>
 										<strong>&nbsp;August 18 2016</strong>
 									</div>
 								</li>
@@ -2227,7 +2223,7 @@
 						</div>
 						<div class="col-md-6">
 							<span id="backtop">
-								<i class="icon-arrow-up9"></i>
+								<i class="glyphicon glyphicon-menu-up"></i>
 							</span>
 
 							<div class="social-media">
@@ -2235,22 +2231,22 @@
 								<ul>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-facebook2 " data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-facebook" data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
 										</a>
 									</li>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-dribbble7 " data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-dribbble" data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
 										</a>
 									</li>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-twitter2 " data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-twitter" data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
 										</a>
 									</li>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-behance2 " data-original-title="Behance" href="https://www.behance.net/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-behance" data-original-title="Behance" href="https://www.behance.net/" target="_blank">
 										</a>
 									</li>
 								</ul>

@@ -1439,17 +1439,22 @@ ul li ul li ul li {
 }
 .cs-filterable .cs-sort{ float: left; }
 .cs-filterable .cs-sort li{
+	
 	list-style: none;
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 14px 0 0;
 }
-.cs-filterable .cs-sort li span{
+.cs-filterable .cs-sort li i{
 	font-size: 14px;
 	display: block;
 	line-height: 17px;
 	color: #000;
 	font-weight: 500;
+	left: 10px;
+    top: 26px;
+    color: #aaaaaa;
+    z-index: 2;
 }
 .cs-filterable .cs-sort .select-holder{
 	position: relative;
@@ -1676,9 +1681,11 @@ ul li ul li ul li {
   transition: all 0.3s ease-in-out;
 }
 .cs-courses.listing-view .course-info .courses-btn a:hover i {
+	/* padding-top:10px; */
 	color: #fff;
 }
 .cs-courses.listing-view .course-info .courses-btn a i {
+	/* padding-top:10px; */
 	font-size: 20px;
 	color: #a8a8a8;
 	margin: -3px 0 0 0;
@@ -7708,7 +7715,7 @@ address {
 }
 .course-tab .cs-courses.listing-view i{
  line-height: 0; 
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 .cs-courses.listing-view.default-courses .details i { line-height: 0; }
 .cs-courses.listing-view .course-info li.courses-btn{
