@@ -44,6 +44,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
     </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" id="buttons-css" href="../../Contents/buttons.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="dashicons-css" href="../../Contents/dashicons.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="mediaelement-css" href="../../Contents/mediaelementplayer-legacy.min.css" type="text/css" media="all">
@@ -147,9 +153,9 @@
                     <div class="col-md-8">
                         <div class="right-side">
                             <nav class="top-nav">
-                                <ul id="menu-top-menu" class="">
+                                <ul id="menu-top-menu">
                                     <li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-133">
-                                        <a href="../../home.html">Home</a>
+                                        <a href="home.html">Home</a>
                                     </li>
                                     <li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134">
                                         <a href="http://uoce.chimpgroup.com/about-us/">About us</a>
@@ -170,12 +176,15 @@
                                     <span>Search</span>
                                     <input type="text" value="" name="s" id="s" placeholder="Enter your search">
                                     <label>
-                                        <input type="submit" value="">
+                                        <button type="submit">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </button>
                                     </label>
                                 </form>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-12">
                         <div class="main-nav ">
                             <nav class="navigation">
@@ -403,7 +412,7 @@
                                                                 <a href="mailto:info@example.com" class="emaildiv">
                                                                     <ul>
                                                                         <li>
-                                                                            <i class="icon-envelope4"></i>
+                                                                            <i class="glyphicon glyphicon-envelope"></i>
                                                                         </li>
                                                                         <li>Email:</li>
                                                                         <li>info@example.com</li>
@@ -414,7 +423,7 @@
                                                                 <a href="#" class="emaildiv">
                                                                     <ul>
                                                                         <li>
-                                                                            <i class="icon-phone6"></i>
+                                                                            <i class="glyphicon glyphicon-earphone	"></i>
                                                                         </li>
                                                                         <li>Phone:</li>
                                                                         <li>(800) 123 456 789</li>
@@ -425,7 +434,7 @@
                                                                 <a href="#" class="emaildiv">
                                                                     <ul>
                                                                         <li>
-                                                                            <i class="icon-map-marker"></i>
+                                                                            <i class="glyphicon glyphicon-map-marker"></i>
                                                                         </li>
                                                                         <li>Address:</li>
                                                                         <li>200 York Way, London, N7 9AX</li>
@@ -437,28 +446,29 @@
                                                     </div>
                                                     <div class="col-lg-12 marginleft">
                                                         <div class="social-media-blog">
-                                                            <ul>
+                                                                <ul>
 
-                                                                <li>
-                                                                    <a href="http://facebook.com" data-original-title="Facebook" class="icon-facebook2"></a>
-                                                                </li>
+                                                                        <li>
+                                                                            <a href="http://facebook.com" data-original-title="Facebook" class="fa fa-facebook	"></a>
+                                                                        </li>
 
-                                                                <li>
-                                                                    <a href="http://twitter.com" data-original-title="Twitter" class="icon-twitter6"></a>
-                                                                </li>
+                                                                        <li>
+                                                                            <a href="http://twitter.com" data-original-title="Twitter" class="fa fa-twitter	"></a>
+                                                                        </li>
 
-                                                                <li>
-                                                                    <a href="http://google.com" data-original-title="GooglePlus" class="icon-googleplus7"></a>
-                                                                </li>
+                                                                        <li>
+                                                                            <a href="http://google.com" data-original-title="GooglePlus" class="fa fa-google-plus	"></a>
+                                                                        </li>
 
-                                                                <li>
-                                                                    <a href="http://linkedin.com" data-original-title="Instagram" class="icon-instagram4"></a>
-                                                                </li>
+                                                                        <li>
+                                                                            <a href="http://linkedin.com" data-original-title="Instagram" class="fa fa-instagram	"></a>
+                                                                        </li>
 
-                                                                <li>
-                                                                    <a href="mailto:info@example.com" data-original-title="Email" class="icon-envelope4"></a>
-                                                                </li>
-                                                            </ul>
+                                                                        <li>
+                                                                            <a href="mailto:info@example.com" data-original-title="Email" class="glyphicon glyphicon-envelope"></a>
+                                                                        </li>
+
+                                                                    </ul>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -496,21 +506,21 @@
                                     <ul class="timeline">
                                         <li>
                                             <h6>
-                                                <i class="icon-clock3 timeline-image"></i>2001-2002 / Welcome to Chife Guest</h6>
+                                                <i class="glyphicon glyphicon-time timeline-image"></i>2001-2002 / Welcome to Chife Guest</h6>
                                             <p>Pangolin regarding rabbit ahead dolorously soothingly ouch unbound excluding
                                                 sewed and hedgehog unsuccessfully struck labrador besides and yet by goodness
                                                 much bowed meadowlark.</p>
                                         </li>
                                         <li>
                                             <h6>
-                                                <i class="icon-clock3 timeline-image"></i>2003-2010 / Speker 1 Address</h6>
+                                                <i class="glyphicon glyphicon-time timeline-image" style="margin-top:100px;"></i>2003-2010 / Speker 1 Address</h6>
                                             <p>Pangolin regarding rabbit ahead dolorously soothingly ouch unbound excluding
                                                 sewed and hedgehog unsuccessfully struck labrador besides and yet by goodness
                                                 much bowed meadowlark.</p>
                                         </li>
                                         <li>
                                             <h6>
-                                                <i class="icon-clock3 timeline-image"></i>2011-2013 / Guest Lecture</h6>
+                                                <i class="glyphicon glyphicon-time timeline-image" style="margin-top:200px;"></i>2011-2013 / Guest Lecture</h6>
                                             <p>Pangolin regarding rabbit ahead dolorously soothingly ouch unbound excluding
                                                 sewed and hedgehog unsuccessfully struck labrador besides and yet by goodness
                                                 much bowed meadowlark.</p>
@@ -569,8 +579,8 @@
                                             animation: 'slide',
                                             directionNav: true,
                                             controlNav: false,
-                                            prevText: "<i class='icon-arrow-left10'></i>",
-                                            nextText: "<i class='icon-arrow-right10'></i>",
+                                            prevText: "<i class='glyphicon glyphicon-menu-left'></i>",
+                                            nextText: "<i class='glyphicon glyphicon-menu-right'></i>",
                                         });
                                     });
                                 </script>
@@ -739,16 +749,16 @@
                                                 <h4>Quick Inquiry</h4>
                                                 <form name="frm145807476" id="frm145807476" action="javascript:cs_contact_frm_submit(145807476)" class="comment-form">
                                                     <label>
-                                                        <i class="icon-book8"></i>
+                                                        <i class="glyphicon glyphicon-book"></i>
                                                         <input type="text" name="contact_name" placeholder="Enter Name" required="">
 
                                                     </label>
                                                     <label>
-                                                        <i class="icon-mortar-board"></i>
+                                                        <i class="glyphicon glyphicon-education"></i>
                                                         <input type="email" name="contact_email" placeholder="Email Address" required="">
                                                     </label>
                                                     <label>
-                                                        <i class="icon-globe4"></i>
+                                                        <i class="glyphicon glyphicon-globe"></i>
                                                         <input type="text" name="subject" placeholder="Subject" required="">
                                                     </label>
                                                     <label class="textaera-sec">
@@ -958,7 +968,6 @@
 
 
         <!-- Footer -->
-
         <footer>
 
             <div class="newsletter-section">
@@ -999,7 +1008,7 @@
                             <form class="newsletter-from" action="javascript:cs_mailchimp_submit(&#39;http://uoce.chimpgroup.com/wp-content/themes/uoc&#39;,&#39;1&#39;,&#39;http://uoce.chimpgroup.com/wp-admin/admin-ajax.php&#39;)"
                                 id="mcform_1" method="post">
                                 <div id="newsletter_mess_1" style="display:none" class="cs-error-msg"></div>
-                                <i class="icon-envelope4"></i>
+                                <i class="glyphicon glyphicon-envelope"></i>
                                 <input id="cs_list_id" type="hidden" name="cs_list_id" value="0">
                                 <input type="email" id="mc_email" name="mc_email" placeholder=" Enter Valid Email Address">
                                 <input type="submit" id="btn_newsletter_1" value="Submit">
@@ -1020,21 +1029,21 @@
                             </div>
                             <ul>
                                 <li>
-                                    <i class="icon-map-marker"></i>
+                                    <i class="glyphicon glyphicon-map-marker"></i>
                                     <p>123 Eccles Old Road New East London</p>
                                 </li>
                                 <li>
-                                    <i class="icon-phone6"></i>
+                                    <i class="glyphicon glyphicon-earphone"></i>
                                     <p>
                                         <span>Telephone</span>02 562-958, 02 562-958</p>
                                 </li>
                                 <li>
-                                    <i class="icon-dribbble6"></i>
+                                    <i class="glyphicon glyphicon-plane"></i>
                                     <p>
                                         <span>International</span> 123 500 500 500</p>
                                 </li>
                                 <li>
-                                    <i class="icon-envelope4"></i>
+                                    <i class="glyphicon glyphicon-envelope"></i>
                                     <p>
                                         <span>email</span>
                                         <a href="mailto:info@chimpgroup.com">info@chimpgroup.com</a>
@@ -1119,7 +1128,7 @@
                                         <a target="blank" title="creative" href="http://twitter.com/search?q=%23creative">#creative</a> journey.
                                         <a target="blank" title="https://t.co/yqriX7dHWn" href="https://t.co/yqriX7dHWn">https://t.co/yqriX7dHWn</a>
                                         <br>
-                                        <i class="icon-twitter2"></i>
+                                        <i class="fa fa-twitter"></i>
                                         <strong>&nbsp;August 18 2016</strong>
                                     </div>
                                 </li>
@@ -1132,7 +1141,7 @@
                                         <a target="blank" title="https://t.co/TgHIR0XM49" href="https://t.co/TgHIR0XM49">https://t.co/TgHIR0XM49</a>
                                         <a target="blank" title="girlsintech" href="http://twitter.com/search?q=%23girlsintech">#girlsintech</a> https:…
                                         <br>
-                                        <i class="icon-twitter2"></i>
+                                        <i class="fa fa-twitter"></i>
                                         <strong>&nbsp;August 18 2016</strong>
                                     </div>
                                 </li>
@@ -1181,7 +1190,7 @@
                         </div>
                         <div class="col-md-6">
                             <span id="backtop">
-                                <i class="icon-arrow-up9"></i>
+                                <i class="glyphicon glyphicon-menu-up"></i>
                             </span>
 
                             <div class="social-media">
@@ -1189,22 +1198,22 @@
                                 <ul>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-facebook2 " data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-facebook" data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-dribbble7 " data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-dribbble" data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-twitter2 " data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-twitter" data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-behance2 " data-original-title="Behance" href="https://www.behance.net/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-behance" data-original-title="Behance" href="https://www.behance.net/" target="_blank">
                                         </a>
                                     </li>
                                 </ul>

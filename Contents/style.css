@@ -6374,8 +6374,8 @@ a.expand {
 	margin-left:20px;
 	}
 .detaillisting li:before  {
-	content: "\f00c";
-	font-family: 'icomoon';
+	content: "\f046";
+	font-family: 'FontAwesome';
 	float: left;
 	color: #fff;
 	margin: 2px 9px 0 0;
