@@ -45,6 +45,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
     </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" id="buttons-css" href="../../Contents/buttons.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="dashicons-css" href="../../Contents/dashicons.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="mediaelement-css" href="../../Contents/mediaelementplayer-legacy.min.css" type="text/css" media="all">
@@ -148,9 +154,9 @@
                     <div class="col-md-8">
                         <div class="right-side">
                             <nav class="top-nav">
-                                <ul id="menu-top-menu" class="">
+                                <ul id="menu-top-menu">
                                     <li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-133">
-                                        <a href="../../home.html">Home</a>
+                                        <a href="home.html">Home</a>
                                     </li>
                                     <li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134">
                                         <a href="http://uoce.chimpgroup.com/about-us/">About us</a>
@@ -171,12 +177,15 @@
                                     <span>Search</span>
                                     <input type="text" value="" name="s" id="s" placeholder="Enter your search">
                                     <label>
-                                        <input type="submit" value="">
+                                        <button type="submit">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </button>
                                     </label>
                                 </form>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-12">
                         <div class="main-nav ">
                             <nav class="navigation">
@@ -414,24 +423,24 @@
 
                                         <div class="cs-thumb-post">
                                             <figure>
-                                                <a href="http://uoce.chimpgroup.com/author/uoce-admin/">
-                                                    <img alt="" src="http://0.gravatar.com/avatar/f4736b0a1b77a61c1ff9c113f0081709?s=40&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/f4736b0a1b77a61c1ff9c113f0081709?s=80&amp;d=mm&amp;r=g 2x"
+                                                <a href="http://uoce.chimpgroup.com/author/andy/">
+                                                    <img alt="" src="http://1.gravatar.com/avatar/7a20fad302fc2dd4b4649dc5bdb3c463?s=40&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/7a20fad302fc2dd4b4649dc5bdb3c463?s=80&amp;d=mm&amp;r=g 2x"
                                                         class="avatar avatar-40 photo">
                                                 </a>
                                             </figure>
                                             <ul>
                                                 <li>
                                                     <span> Posted by</span>
-                                                    <i class="icon-user9"></i>
-                                                    <a href="http://uoce.chimpgroup.com/author/uoce-admin/">
-                                                        uoce-admin </a>
+                                                    <i class="glyphicon glyphicon-user	"></i>
+                                                    <a href="http://uoce.chimpgroup.com/author/andy/">
+                                                        Olin Andy </a>
                                                 </li>
 
                                                 <li>
                                                     <span>Posted in</span>
-                                                    <i class="icon-folder5"></i>
+                                                    <i class="glyphicon glyphicon-folder-open	"></i>
                                                     <a href="http://uoce.chimpgroup.com/category/education/" rel="tag">Education</a>,
-                                                    <a href="http://uoce.chimpgroup.com/category/international/" rel="tag">International</a>
+                                                    <a href="http://uoce.chimpgroup.com/category/learning/" rel="tag">Learning</a>
                                                 </li>
 
 
@@ -475,47 +484,47 @@
                                             <ul class="cs-sharepost">
                                                 <li>
                                                     <a class="cs-sharepost-btn cs-more">
-                                                        <i class=" icon-forward8"></i> Share post </a>
+                                                        <i class="glyphicon glyphicon-share-alt	"></i> Share post </a>
                                                     <div class="social-media">
-                                                        <ul>
+                                                        <ul class="cs-sharepost">
                                                             <li>
                                                                 <a class="addthis_button_facebook at300b" title="Facebook" href="#">
-                                                                    <i data-original="facebook" class="icon-facebook7"></i>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a class="addthis_button_tumblr at300b" data-original-title="Tumblr" target="_blank" title="Tumblr" href="#">
-                                                                    <i class="icon-tumblr2"></i>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a class="addthis_button_dribbble at300b" data-original-title="Dribbble" target="_blank" title="Dribbble" href="#">
-                                                                    <i class="icon-dribbble2"></i>
+                                                                    <i data-original="facebook" class="fa fa-facebook	"></i>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a class="addthis_button_twitter at300b" title="Twitter" href="#">
-                                                                    <i data-original="twitter" class="icon-twitter6"></i>
+                                                                    <i data-original="twitter" class="fa fa-twitter	"></i>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a class="addthis_button_google at300b" target="_blank" title="Google Bookmark" href="#">
-                                                                    <i data-original="googleplus" class="icon-googleplus7"></i>
+                                                                    <i data-original="googleplus" class="fa fa-google-plus"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="addthis_button_tumblr at300b" data-original-title="Tumblr" target="_blank" title="Tumblr" href="#">
+                                                                    <i class="fa fa-tumblr"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a class="addthis_button_dribbble at300b" data-original-title="Dribbble" target="_blank" title="Dribbble" href="#">
+                                                                    <i class="fa fa-dribbble"></i>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a class="addthis_button_instagram at300b" target="_blank" title="Instagram" href="#">
-                                                                    <i data-original="instagram" class="icon-instagram"></i>
+                                                                    <i data-original="instagram" class="fa fa-instagram"></i>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a class="addthis_button_youtube at300b" target="_blank" title="YouTube" href="#">
-                                                                    <i data-original="youtube-play" class="icon-youtube-play"></i>
+                                                                <a href="#">
+                                                                    <i data-original="youtube-play" class="fa fa-youtube-play"></i>
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a class="addthis_button_compact at300m" href="#">
-                                                                    <i data-original="plus3" class="icon-plus3"></i>
+                                                                <a class="cs-more addthis_button_compact" href="#">
+                                                                    <i data-original="plus3" class="glyphicon glyphicon-share	"></i>
                                                                 </a>
                                                             </li>
                                                         </ul>
@@ -527,9 +536,8 @@
                                                 <ul>
                                                     <li>
                                                         <a>
-                                                            <i class="icon-tag7"></i>
+                                                            <i class="glyphicon glyphicon-tag	"></i>
                                                         </a>
-                                                        <a href="http://uoce.chimpgroup.com/tag/college/" rel="tag">College</a>,
                                                         <a href="http://uoce.chimpgroup.com/tag/learn/" rel="tag">Learn</a>,
                                                         <a href="http://uoce.chimpgroup.com/tag/people/" rel="tag">People</a>,
                                                         <a href="http://uoce.chimpgroup.com/tag/skill/" rel="tag">Skill</a>
@@ -544,21 +552,21 @@
                                         <ul class="cs-prev-next">
 
                                             <li>
-                                                <a href="http://uoce.chimpgroup.com/a-response-to-principal-carol-burris-audio/">
-                                                    <i class=" icon-arrow-left10"></i>
-                                                </a>
-                                            </li>
-
-                                            <li>
-                                                <a href="http://uoce.chimpgroup.com/a-response-to-principal-carol-burris-audio/">
-                                                    <i class=" icon-th"></i>
-                                                </a>
-                                            </li>
-
-
-                                            <li>
                                                 <a href="http://uoce.chimpgroup.com/local-education-authority-results/">
-                                                    <i class=" icon-arrow-right10"></i>
+                                                    <i class="glyphicon glyphicon-menu-left	"></i>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="http://uoce.chimpgroup.com/college-readiness-and-college-video/">
+                                                    <i class="fa fa-th"></i>
+                                                </a>
+                                            </li>
+
+
+                                            <li>
+                                                <a href="http://uoce.chimpgroup.com/the-false-arguments-of-carol-burris-against-high-standards/">
+                                                    <i class="glyphicon glyphicon-menu-right	"></i>
                                                 </a>
                                             </li>
 
@@ -606,10 +614,10 @@
                                                                     <ul class="gallery lightbox clearfix">
                                                                         <li>
                                                                             <a href="../../images/Blog/UOCE-Blogs-Posts-03.jpg" class="cs-search" rel="prettyPhoto">
-                                                                                <i class="icon-zoomin3"></i>
+                                                                                <i class="glyphicon glyphicon-zoom-in	"></i>
                                                                             </a>
                                                                             <a href="http://uoce.chimpgroup.com/teacher-maricela-montoy-wilson-defends/" class="cs-link">
-                                                                                <i class="icon-chain"></i>
+                                                                                <i class="glyphicon glyphicon-link	"></i>
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -660,10 +668,10 @@
                                                                     <ul class="gallery lightbox clearfix">
                                                                         <li>
                                                                             <a href="../../images/Blog/UOCE-Blogs-Posts-01.jpg" class="cs-search" rel="prettyPhoto">
-                                                                                <i class="icon-zoomin3"></i>
+                                                                                <i class="glyphicon glyphicon-zoom-in	"></i>
                                                                             </a>
                                                                             <a href="http://uoce.chimpgroup.com/a-third-of-trainee-teachers-fail-to-hold-good-degrees/" class="cs-link">
-                                                                                <i class="icon-chain"></i>
+                                                                                <i class="glyphicon glyphicon-link	"></i>
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -714,10 +722,10 @@
                                                                     <ul class="gallery lightbox clearfix">
                                                                         <li>
                                                                             <a href="../../images/Blog/UOCE-Blogs-Posts-02.jpg" class="cs-search" rel="prettyPhoto">
-                                                                                <i class="icon-zoomin3"></i>
+                                                                                <i class="glyphicon glyphicon-zoom-in	"></i>
                                                                             </a>
                                                                             <a href="http://uoce.chimpgroup.com/new-jersey-leaders-and-educators-bust-common-core/" class="cs-link">
-                                                                                <i class="icon-chain"></i>
+                                                                                <i class="glyphicon glyphicon-link	"></i>
                                                                             </a>
                                                                         </li>
                                                                     </ul>
@@ -734,17 +742,14 @@
 
 
 
-
-
-
                                     <div id="cs-comments">
                                         <div class="cs-section-title">
                                             <h4>4 comentos</h4>
                                         </div>
 
                                         <ul>
-                                            <li id="li-comment-10" class="comment byuser comment-author-uoce-admin bypostauthor even thread-even depth-1">
-                                                <div class="thumblist" id="comment-10">
+                                            <li id="li-comment-8" class="comment byuser comment-author-uoce-admin even thread-even depth-1">
+                                                <div class="thumblist" id="comment-8">
                                                     <figure>
                                                         <a href="">
                                                             <img alt="" src="http://0.gravatar.com/avatar/f4736b0a1b77a61c1ff9c113f0081709?s=40&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/f4736b0a1b77a61c1ff9c113f0081709?s=80&amp;d=mm&amp;r=g 2x"
@@ -756,10 +761,10 @@
                                                             <h6>uoce-admin</h6>
 
                                                             <time datetime="2011-01-12">June 24, 2015 5:06 am</time>
-                                                            <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/college-readiness-and-college-video/?replytocom=10#respond"
-                                                                onclick="return addComment.moveForm( &quot;comment-10&quot;, &quot;10&quot;, &quot;respond&quot;, &quot;15&quot; )"
+                                                            <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/this-educators-tough-evaluation-made-him-a-better-teacher/?replytocom=8#respond"
+                                                                onclick="return addComment.moveForm( &quot;comment-8&quot;, &quot;8&quot;, &quot;respond&quot;, &quot;21&quot; )"
                                                                 aria-label="Reply to uoce-admin">
-                                                                <i class="icon-mail-forward"></i>
+                                                                <i class="glyphicon glyphicon-share-alt	"></i>
                                                                 <span>Reply</span>
                                                             </a>
                                                         </header>
@@ -771,8 +776,8 @@
                                                     </div>
                                                 </div>
                                                 <ul class="children">
-                                                    <li id="li-comment-25" class="comment byuser comment-author-glennfuller odd alt depth-2">
-                                                        <div class="thumblist" id="comment-25">
+                                                    <li id="li-comment-23" class="comment byuser comment-author-glennfuller odd alt depth-2">
+                                                        <div class="thumblist" id="comment-23">
                                                             <figure>
                                                                 <a href="">
                                                                     <img alt="" src="http://2.gravatar.com/avatar/bdfce2f2340cb82f8a5925d85e348ea8?s=40&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/bdfce2f2340cb82f8a5925d85e348ea8?s=80&amp;d=mm&amp;r=g 2x"
@@ -783,11 +788,11 @@
                                                                 <header>
                                                                     <h6>Joseph Thompson</h6>
 
-                                                                    <time datetime="2011-01-12">June 24, 2015 5:16 am</time>
-                                                                    <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/college-readiness-and-college-video/?replytocom=25#respond"
-                                                                        onclick="return addComment.moveForm( &quot;comment-25&quot;, &quot;25&quot;, &quot;respond&quot;, &quot;15&quot; )"
+                                                                    <time datetime="2011-01-12">June 24, 2015 5:15 am</time>
+                                                                    <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/this-educators-tough-evaluation-made-him-a-better-teacher/?replytocom=23#respond"
+                                                                        onclick="return addComment.moveForm( &quot;comment-23&quot;, &quot;23&quot;, &quot;respond&quot;, &quot;21&quot; )"
                                                                         aria-label="Reply to Joseph Thompson">
-                                                                        <i class="icon-mail-forward"></i>
+                                                                        <i class="glyphicon glyphicon-share-alt	"></i>
                                                                         <span>Reply</span>
                                                                     </a>
                                                                 </header>
@@ -798,8 +803,8 @@
                                                             </div>
                                                         </div>
                                                         <ul class="children">
-                                                            <li id="li-comment-38" class="comment byuser comment-author-larryjohnson even depth-3">
-                                                                <div class="thumblist" id="comment-38">
+                                                            <li id="li-comment-40" class="comment byuser comment-author-larryjohnson even depth-3">
+                                                                <div class="thumblist" id="comment-40">
                                                                     <figure>
                                                                         <a href="">
                                                                             <img alt="" src="http://0.gravatar.com/avatar/f7d895dd202aeceab6c5578cf4e5599f?s=40&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/f7d895dd202aeceab6c5578cf4e5599f?s=80&amp;d=mm&amp;r=g 2x"
@@ -811,10 +816,10 @@
                                                                             <h6>Larry Johnson</h6>
 
                                                                             <time datetime="2011-01-12">June 24, 2015 5:22 am</time>
-                                                                            <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/college-readiness-and-college-video/?replytocom=38#respond"
-                                                                                onclick="return addComment.moveForm( &quot;comment-38&quot;, &quot;38&quot;, &quot;respond&quot;, &quot;15&quot; )"
+                                                                            <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/this-educators-tough-evaluation-made-him-a-better-teacher/?replytocom=40#respond"
+                                                                                onclick="return addComment.moveForm( &quot;comment-40&quot;, &quot;40&quot;, &quot;respond&quot;, &quot;21&quot; )"
                                                                                 aria-label="Reply to Larry Johnson">
-                                                                                <i class="icon-mail-forward"></i>
+                                                                                <i class="glyphicon glyphicon-share-alt	"></i>
                                                                                 <span>Reply</span>
                                                                             </a>
                                                                         </header>
@@ -835,8 +840,8 @@
                                                 <!-- .children -->
                                             </li>
                                             <!-- #comment-## -->
-                                            <li id="li-comment-56" class="comment byuser comment-author-andy odd alt thread-odd thread-alt depth-1">
-                                                <div class="thumblist" id="comment-56">
+                                            <li id="li-comment-58" class="comment byuser comment-author-andy bypostauthor odd alt thread-odd thread-alt depth-1">
+                                                <div class="thumblist" id="comment-58">
                                                     <figure>
                                                         <a href="">
                                                             <img alt="" src="http://1.gravatar.com/avatar/7a20fad302fc2dd4b4649dc5bdb3c463?s=40&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/7a20fad302fc2dd4b4649dc5bdb3c463?s=80&amp;d=mm&amp;r=g 2x"
@@ -848,10 +853,10 @@
                                                             <h6>Olin Andy</h6>
 
                                                             <time datetime="2011-01-12">June 24, 2015 5:29 am</time>
-                                                            <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/college-readiness-and-college-video/?replytocom=56#respond"
-                                                                onclick="return addComment.moveForm( &quot;comment-56&quot;, &quot;56&quot;, &quot;respond&quot;, &quot;15&quot; )"
+                                                            <a rel="nofollow" class="comment-reply-link comment-reply" href="http://uoce.chimpgroup.com/this-educators-tough-evaluation-made-him-a-better-teacher/?replytocom=58#respond"
+                                                                onclick="return addComment.moveForm( &quot;comment-58&quot;, &quot;58&quot;, &quot;respond&quot;, &quot;21&quot; )"
                                                                 aria-label="Reply to Olin Andy">
-                                                                <i class="icon-mail-forward"></i>
+                                                                <i class="glyphicon glyphicon-share-alt	"></i>
                                                                 <span>Reply</span>
                                                             </a>
                                                         </header>
@@ -870,43 +875,30 @@
 
                                     </div>
 
-
                                     <div id="respond-comment" class="cs-plain-form cs_form_styling">
                                         <div class="form-style">
                                             <h4>Leave us a Comment</h4>
 
+                                            <form name="frm145807476" id="frm145807476" action="javascript:cs_contact_frm_submit(145807476)" class="comment-form">
+                                                <label>
+                                                    <i class="glyphicon glyphicon-book"></i>
+                                                    <input type="text" name="contact_name" placeholder="Enter Name" required="">
 
-                                            <div id="respond" class="comment-respond">
-                                                <h3 id="reply-title" class="comment-reply-title">
-                                                    <small>
-                                                        <a rel="nofollow" id="cancel-comment-reply-link" href="/college-readiness-and-college-video/#respond" style="display:none;">Cancel reply</a>
-                                                    </small>
-                                                </h3>
-                                                <form action="http://uoce.chimpgroup.com/wp-comments-post.php" method="post" id="form-style" class="comment-form contact-form">
-
-                                                    <label class="textaera-sec">
-                                                        <textarea id="comment_mes" name="comment" class="commenttextarea"></textarea>
-                                                    </label>
-
-                                                    <label>
-                                                        <i class="icon-book8"></i>
-                                                        <input id="author" name="author" class="nameinput" placeholder="Enter Name" required="" type="text" value="" tabindex="1">
-                                                    </label>
-                                                    <label>
-                                                        <i class="icon-mortar-board"></i>
-                                                        <input id="email" name="email" class="emailinput" type="text" placeholder="Email Address " required="" value="" tabindex="2">
-                                                    </label>
-                                                    <label>
-                                                        <i class="icon-globe4"></i>
-                                                        <input id="url" name="url" type="text" class="websiteinput" value="" tabindex="3" placeholder="Subject " required="">
-                                                    </label>
-                                                    <p class="form-submit">
-                                                        <input name="submit" type="submit" id="cs-bg-color" class="submit-btn cs-bgcolor" value="Submit">
-                                                        <input type="hidden" name="comment_post_ID" value="15" id="comment_post_ID">
-                                                        <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-                                                    </p>
-                                                </form>
-                                            </div>
+                                                </label>
+                                                <label>
+                                                    <i class="glyphicon glyphicon-education"></i>
+                                                    <input type="email" name="contact_email" placeholder="Email Address" required="">
+                                                </label>
+                                                <label>
+                                                    <i class="glyphicon glyphicon-globe"></i>
+                                                    <input type="text" name="subject" placeholder="Subject" required="">
+                                                </label>
+                                                <label class="textaera-sec">
+                                                    <textarea placeholder="Enter Message" id="comment_mes" name="contact_msg" rows="4" cols="39"></textarea> </label>
+                                                <label class="form-submit">
+                                                    <input type="submit" name="submit" value="Submit">
+                                                </label>
+                                            </form>
                                             <!-- #respond -->
                                         </div>
                                     </div>
@@ -939,24 +931,24 @@
                                 </div>
                                 <ul>
                                     <li>
-                                        <i class="icon-map-marker"></i>
-                                        <p>Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051</p>
+                                        <i class="glyphicon glyphicon-map-marker"></i>
+                                        <p>123 Eccles Old Road New East London</p>
                                     </li>
                                     <li>
-                                        <i class="icon-phone6"></i>
+                                        <i class="glyphicon glyphicon-earphone"></i>
                                         <p>
-                                            <span>Telephone</span>123 456 789 10</p>
+                                            <span>Telephone</span>02 562-958, 02 562-958</p>
                                     </li>
                                     <li>
-                                        <i class="icon-dribbble6"></i>
+                                        <i class="glyphicon glyphicon-plane"></i>
                                         <p>
-                                            <span>International</span> 123 456 789</p>
+                                            <span>International</span> 123 500 500 500</p>
                                     </li>
                                     <li>
-                                        <i class="icon-envelope4"></i>
+                                        <i class="glyphicon glyphicon-envelope"></i>
                                         <p>
                                             <span>email</span>
-                                            <a href="mailto:info@example.com">info@example.com</a>
+                                            <a href="mailto:info@chimpgroup.com">info@chimpgroup.com</a>
                                         </p>
                                     </li>
                                 </ul>
@@ -1058,17 +1050,17 @@
                                     <ul class="tab-nav">
                                         <li class="active">
                                             <a href="#tab1">
-                                                <i class="icon-user9"></i>
+                                                <i class="glyphicon glyphicon-user	"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#tab2">
-                                                <i class="icon-tag7"></i>
+                                                <i class="glyphicon glyphicon-tag	"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#tab3">
-                                                <i class="icon-folder5"></i>
+                                                <i class="glyphicon glyphicon-folder-open	"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -1224,7 +1216,7 @@
                                             <a target="blank" title="creative" href="http://twitter.com/search?q=%23creative">#creative</a> journey.
                                             <a target="blank" title="https://t.co/yqriX7dHWn" href="https://t.co/yqriX7dHWn">https://t.co/yqriX7dHWn</a>
                                             <br>
-                                            <i class="icon-twitter2"></i>
+                                            <i class="fa fa-twitter	"></i>
                                             <strong>&nbsp;August 18 2016</strong>
                                         </div>
                                     </li>
@@ -1237,7 +1229,7 @@
                                             <a target="blank" title="https://t.co/TgHIR0XM49" href="https://t.co/TgHIR0XM49">https://t.co/TgHIR0XM49</a>
                                             <a target="blank" title="girlsintech" href="http://twitter.com/search?q=%23girlsintech">#girlsintech</a> https:…
                                             <br>
-                                            <i class="icon-twitter2"></i>
+                                            <i class="fa fa-twitter	"></i>
                                             <strong>&nbsp;August 18 2016</strong>
                                         </div>
                                     </li>
@@ -1247,7 +1239,7 @@
                                             <a target="blank" title="Envato" href="http://twitter.com/search?q=%23Envato">#Envato</a> T-Shirt?
                                             <a target="blank" title="https://t.co/02NRoE1lWm" href="https://t.co/02NRoE1lWm">https://t.co/02NRoE1lWm</a>
                                             <br>
-                                            <i class="icon-twitter2"></i>
+                                            <i class="fa fa-twitter	"></i>
                                             <strong>&nbsp;August 17 2016</strong>
                                         </div>
                                     </li>
@@ -1265,7 +1257,6 @@
 
 
         <!-- Footer -->
-
         <footer>
 
             <div class="newsletter-section">
@@ -1306,7 +1297,7 @@
                             <form class="newsletter-from" action="javascript:cs_mailchimp_submit(&#39;http://uoce.chimpgroup.com/wp-content/themes/uoc&#39;,&#39;1&#39;,&#39;http://uoce.chimpgroup.com/wp-admin/admin-ajax.php&#39;)"
                                 id="mcform_1" method="post">
                                 <div id="newsletter_mess_1" style="display:none" class="cs-error-msg"></div>
-                                <i class="icon-envelope4"></i>
+                                <i class="glyphicon glyphicon-envelope"></i>
                                 <input id="cs_list_id" type="hidden" name="cs_list_id" value="0">
                                 <input type="email" id="mc_email" name="mc_email" placeholder=" Enter Valid Email Address">
                                 <input type="submit" id="btn_newsletter_1" value="Submit">
@@ -1327,21 +1318,21 @@
                             </div>
                             <ul>
                                 <li>
-                                    <i class="icon-map-marker"></i>
+                                    <i class="glyphicon glyphicon-map-marker"></i>
                                     <p>123 Eccles Old Road New East London</p>
                                 </li>
                                 <li>
-                                    <i class="icon-phone6"></i>
+                                    <i class="glyphicon glyphicon-earphone"></i>
                                     <p>
                                         <span>Telephone</span>02 562-958, 02 562-958</p>
                                 </li>
                                 <li>
-                                    <i class="icon-dribbble6"></i>
+                                    <i class="glyphicon glyphicon-plane"></i>
                                     <p>
                                         <span>International</span> 123 500 500 500</p>
                                 </li>
                                 <li>
-                                    <i class="icon-envelope4"></i>
+                                    <i class="glyphicon glyphicon-envelope"></i>
                                     <p>
                                         <span>email</span>
                                         <a href="mailto:info@chimpgroup.com">info@chimpgroup.com</a>
@@ -1426,7 +1417,7 @@
                                         <a target="blank" title="creative" href="http://twitter.com/search?q=%23creative">#creative</a> journey.
                                         <a target="blank" title="https://t.co/yqriX7dHWn" href="https://t.co/yqriX7dHWn">https://t.co/yqriX7dHWn</a>
                                         <br>
-                                        <i class="icon-twitter2"></i>
+                                        <i class="fa fa-twitter"></i>
                                         <strong>&nbsp;August 18 2016</strong>
                                     </div>
                                 </li>
@@ -1439,7 +1430,7 @@
                                         <a target="blank" title="https://t.co/TgHIR0XM49" href="https://t.co/TgHIR0XM49">https://t.co/TgHIR0XM49</a>
                                         <a target="blank" title="girlsintech" href="http://twitter.com/search?q=%23girlsintech">#girlsintech</a> https:…
                                         <br>
-                                        <i class="icon-twitter2"></i>
+                                        <i class="fa fa-twitter"></i>
                                         <strong>&nbsp;August 18 2016</strong>
                                     </div>
                                 </li>
@@ -1488,7 +1479,7 @@
                         </div>
                         <div class="col-md-6">
                             <span id="backtop">
-                                <i class="icon-arrow-up9"></i>
+                                <i class="glyphicon glyphicon-menu-up"></i>
                             </span>
 
                             <div class="social-media">
@@ -1496,22 +1487,22 @@
                                 <ul>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-facebook2 " data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-facebook" data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-dribbble7 " data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-dribbble" data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-twitter2 " data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-twitter" data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a style="color:#cccccc;" class="icon-behance2 " data-original-title="Behance" href="https://www.behance.net/" target="_blank">
+                                        <a style="color:#cccccc;" class="fa fa-behance" data-original-title="Behance" href="https://www.behance.net/" target="_blank">
                                         </a>
                                     </li>
                                 </ul>
@@ -1522,7 +1513,6 @@
             </div>
 
         </footer>
-
 
 
 
