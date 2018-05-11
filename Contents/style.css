@@ -356,7 +356,7 @@ form p span i {
 	margin: 40px auto;
 	position: relative;
 	width: 1340px;
-	border-top: 4px solid #1f1f1f;
+	/* border-top: 4px solid #1f1f1f; */
 	overflow: hidden;
  	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 	box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
@@ -3116,14 +3116,22 @@ text-align: center;
 	content: "\f002"; 
 	font-family: "icomoon";
 } 
-.page-no-search .cs-search-area input[type="submit"] {
-	border: none;
-	color: #fff;
+.page-no-search .cs-search-area-custom .btnsearch {
+	/* border: none;
+	
+	padding: 10px 20px 10px 40px;
+	 */
+	 border-radius:0px !important;
+	 color: #fff;
 	font-size: 16px;
 	font-weight: 700;
-	text-transform: uppercase;
-	padding: 10px 20px 10px 40px;
+	 background-color: #08387f !important
 }
+
+.page-no-search .cs-search-area-custom input{
+	width: 100% !important;
+}
+
 .relevant-search {
 	width: 100%;
 	float: left;

@@ -22,7 +22,7 @@
 /* MainBanner */.flexslider .flex-pauseplay:hover,.flexslider .flex-direction-nav a:hover,/* Ticker */.ticker-title, .cs-courses.listing-view article figure .course-num:after,
 .cs-course-table .head, .cs-tabs .tab-nav li.active:after, .widget_tag_cloud .cs-tags ul li a:hover,
 /*Event*/.date-time,
-/*Pages*/ .page-no-search .cs-search-area input[type="submit"], .cs-plain-form input[type="submit"], .cs-tabs.box .nav-tabs li.active a:before, .cs-list .cs-linked-list li.active i,
+/*Pages*/ .page-no-search .cs-search-area button[type="submit"], .cs-plain-form input[type="submit"], .cs-tabs.box .nav-tabs li.active a:before, .cs-list .cs-linked-list li.active i,
 .cs-list .panel-heading a:before, .main-filter .question-btn, .cs-answer-list .back-top-btn,
 /*Event*/.date-time,/* pagination */ .pagination li a:before, .cs-attachment ul li a:hover figure, .thumblist .comment-reply:hover,
 /* Widget */.widget-online-poll .inner-sec ul li:hover a:before, .widget-calender table .day.active a, .responsive-calendar .day a:hover,

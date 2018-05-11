@@ -45,6 +45,11 @@
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 	</style>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<link rel="stylesheet" id="buttons-css" href="../../Contents/buttons.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="dashicons-css" href="../../Contents/dashicons.min.css" type="text/css" media="all">
 	<link rel="stylesheet" id="mediaelement-css" href="../../Contents/mediaelementplayer-legacy.min.css" type="text/css" media="all">
@@ -148,9 +153,9 @@
 					<div class="col-md-8">
 						<div class="right-side">
 							<nav class="top-nav">
-								<ul id="menu-top-menu" class="">
+								<ul id="menu-top-menu">
 									<li id="menu-item-133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-133">
-										<a href="../../home.html">Home</a>
+										<a href="home.html">Home</a>
 									</li>
 									<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134">
 										<a href="http://uoce.chimpgroup.com/about-us/">About us</a>
@@ -171,12 +176,15 @@
 									<span>Search</span>
 									<input type="text" value="" name="s" id="s" placeholder="Enter your search">
 									<label>
-										<input type="submit" value="">
+										<button type="submit">
+											<i class="glyphicon glyphicon-search"></i>
+										</button>
 									</label>
 								</form>
 							</div>
 						</div>
 					</div>
+
 					<div class="col-md-12">
 						<div class="main-nav ">
 							<nav class="navigation">
@@ -397,17 +405,18 @@
 											<li>Try more general keywords, especially if you are attempting a name</li>
 										</ul>
 									</div>
-									<div class="cs-search-area">
-
-										<div class="cs-search-area">
-											<form method="get" action="http://uoce.chimpgroup.com/">
-												<input type="text" name="s" value="Enter your search" class="form-control">
-												<label>
-													<input type="submit" value="Search" class="btnsubmit cs-bg-color">
-												</label>
-											</form>
-
-										</div>
+									
+									<div class="cs-search-area-custom">
+										<form method="get" action="http://uoce.chimpgroup.com/">
+											<div class="col-md-5">
+												<input type="text" value="" name="s" id="s" placeholder="Enter your search">
+											</div>
+											<div class="col-md-2">
+												<button type="button" class="btn btnsearch">
+													<span class="glyphicon glyphicon-search"></span> SEARCH
+												</button>
+											</div>
+										</form>
 									</div>
 
 
@@ -425,9 +434,8 @@
 							<aside class="page-sidebar">
 								<div class="widget cs_ads_banner">
 									<div class="cs_banner_section">
-										<a onclick="cs_banner_click_count_plus('http://uoce.chimpgroup.com/wp-admin/admin-ajax.php', '276833028')" id="cs_banner_clicks276833028"
-										 href="" target="_blank">
-											<img src="http://uoce.chimpgroup.com/wp-content/uploads/add-img.jpg" alt="Sidebar">
+										<a onclick="cs_banner_click_count_plus('http://uoce.chimpgroup.com/wp-admin/admin-ajax.php', '276833028')" id="cs_banner_clicks276833028" href="" target="_blank">
+											<img src="../../images/Pages/add-img.jpg" alt="Sidebar">
 										</a>
 									</div>
 								</div>
@@ -437,24 +445,24 @@
 									</div>
 									<ul>
 										<li>
-											<i class="icon-map-marker"></i>
-											<p>Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, TX 76051</p>
+											<i class="glyphicon glyphicon-map-marker"></i>
+											<p>123 Eccles Old Road New East London</p>
 										</li>
 										<li>
-											<i class="icon-phone6"></i>
+											<i class="glyphicon glyphicon-earphone"></i>
 											<p>
-												<span>Telephone</span>123 456 789 10</p>
+												<span>Telephone</span>02 562-958, 02 562-958</p>
 										</li>
 										<li>
-											<i class="icon-dribbble6"></i>
+											<i class="glyphicon glyphicon-plane"></i>
 											<p>
-												<span>International</span> 123 456 789</p>
+												<span>International</span> 123 500 500 500</p>
 										</li>
 										<li>
-											<i class="icon-envelope4"></i>
+											<i class="glyphicon glyphicon-envelope"></i>
 											<p>
 												<span>email</span>
-												<a href="mailto:info@example.com">info@example.com</a>
+												<a href="mailto:info@chimpgroup.com">info@chimpgroup.com</a>
 											</p>
 										</li>
 									</ul>
@@ -472,11 +480,11 @@
 											<li>
 												<figure>
 													<a href="http://uoce.chimpgroup.com/teacher-maricela-montoy-wilson-defends/">
-														<img src="http://uoce.chimpgroup.com/wp-content/uploads/UOCE-Blogs-Posts-03-150x150.jpg" alt="">
+														<img src="../../images/Pages/UOCE-Blogs-Posts-03-150x150.jpg" alt="">
 													</a>
 
 													<figcaption>
-														<a href="http://uoce.chimpgroup.com/wp-content/uploads/UOCE-Blogs-Posts-03-150x150.jpg" rel="prettyPhoto[gallery2]" title=""></a>
+														<a href="../../images/Pages/UOCE-Blogs-Posts-03-150x150.jpg" rel="prettyPhoto[gallery2]" title=""></a>
 													</figcaption>
 
 												</figure>
@@ -496,11 +504,11 @@
 											<li>
 												<figure>
 													<a href="http://uoce.chimpgroup.com/a-third-of-trainee-teachers-fail-to-hold-good-degrees/">
-														<img src="http://uoce.chimpgroup.com/wp-content/uploads/UOCE-Blogs-Posts-01-150x150.jpg" alt="">
+														<img src="../../images/Pages/UOCE-Blogs-Posts-01-150x150.jpg" alt="">
 													</a>
 
 													<figcaption>
-														<a href="http://uoce.chimpgroup.com/wp-content/uploads/UOCE-Blogs-Posts-01-150x150.jpg" rel="prettyPhoto[gallery2]" title=""></a>
+														<a href="../../images/Pages/UOCE-Blogs-Posts-01-150x150.jpg" rel="prettyPhoto[gallery2]" title=""></a>
 													</figcaption>
 
 												</figure>
@@ -520,11 +528,11 @@
 											<li>
 												<figure>
 													<a href="http://uoce.chimpgroup.com/new-jersey-leaders-and-educators-bust-common-core/">
-														<img src="http://uoce.chimpgroup.com/wp-content/uploads/UOCE-Blogs-Posts-02-150x150.jpg" alt="">
+														<img src="../../images/Pages/UOCE-Blogs-Posts-02-150x150.jpg" alt="">
 													</a>
 
 													<figcaption>
-														<a href="http://uoce.chimpgroup.com/wp-content/uploads/UOCE-Blogs-Posts-02-150x150.jpg" rel="prettyPhoto[gallery2]" title=""></a>
+														<a href="../../images/Pages/UOCE-Blogs-Posts-02-150x150.jpg" rel="prettyPhoto[gallery2]" title=""></a>
 													</figcaption>
 
 												</figure>
@@ -556,17 +564,17 @@
 										<ul class="tab-nav">
 											<li class="active">
 												<a href="#tab1">
-													<i class="icon-user9"></i>
+													<i class="glyphicon glyphicon-user"></i>
 												</a>
 											</li>
 											<li>
 												<a href="#tab2">
-													<i class="icon-tag7"></i>
+													<i class="glyphicon glyphicon-tag"></i>
 												</a>
 											</li>
 											<li>
 												<a href="#tab3">
-													<i class="icon-folder5"></i>
+													<i class="glyphicon glyphicon-folder-open"></i>
 												</a>
 											</li>
 										</ul>
@@ -699,18 +707,12 @@
 										<h6>Tag Cloud</h6>
 									</div>
 									<div class="tagcloud">
-										<a href="http://uoce.chimpgroup.com/tag/college/" class="tag-cloud-link tag-link-12 tag-link-position-1" style="font-size: 9.86666666667pt;"
-										 aria-label="College (10 items)">College</a>
-										<a href="http://uoce.chimpgroup.com/tag/courses/" class="tag-cloud-link tag-link-13 tag-link-position-2" style="font-size: 8pt;"
-										 aria-label="Courses (9 items)">Courses</a>
-										<a href="http://uoce.chimpgroup.com/tag/education/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 20.1333333333pt;"
-										 aria-label="Education (17 items)">Education</a>
-										<a href="http://uoce.chimpgroup.com/tag/learn/" class="tag-cloud-link tag-link-11 tag-link-position-4" style="font-size: 22pt;"
-										 aria-label="Learn (19 items)">Learn</a>
-										<a href="http://uoce.chimpgroup.com/tag/people/" class="tag-cloud-link tag-link-9 tag-link-position-5" style="font-size: 17.3333333333pt;"
-										 aria-label="People (15 items)">People</a>
-										<a href="http://uoce.chimpgroup.com/tag/skill/" class="tag-cloud-link tag-link-10 tag-link-position-6" style="font-size: 11.7333333333pt;"
-										 aria-label="Skill (11 items)">Skill</a>
+										<a href="http://uoce.chimpgroup.com/tag/college/" class="tag-cloud-link tag-link-12 tag-link-position-1" style="font-size: 9.86666666667pt;" aria-label="College (10 items)">College</a>
+										<a href="http://uoce.chimpgroup.com/tag/courses/" class="tag-cloud-link tag-link-13 tag-link-position-2" style="font-size: 8pt;" aria-label="Courses (9 items)">Courses</a>
+										<a href="http://uoce.chimpgroup.com/tag/education/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 20.1333333333pt;" aria-label="Education (17 items)">Education</a>
+										<a href="http://uoce.chimpgroup.com/tag/learn/" class="tag-cloud-link tag-link-11 tag-link-position-4" style="font-size: 22pt;" aria-label="Learn (19 items)">Learn</a>
+										<a href="http://uoce.chimpgroup.com/tag/people/" class="tag-cloud-link tag-link-9 tag-link-position-5" style="font-size: 17.3333333333pt;" aria-label="People (15 items)">People</a>
+										<a href="http://uoce.chimpgroup.com/tag/skill/" class="tag-cloud-link tag-link-10 tag-link-position-6" style="font-size: 11.7333333333pt;" aria-label="Skill (11 items)">Skill</a>
 									</div>
 								</div>
 								<div class="widget widget_twitter">
@@ -723,7 +725,7 @@
 												<a target="blank" title="creative" href="http://twitter.com/search?q=%23creative">#creative</a> journey.
 												<a target="blank" title="https://t.co/yqriX7dHWn" href="https://t.co/yqriX7dHWn">https://t.co/yqriX7dHWn</a>
 												<br>
-												<i class="icon-twitter2"></i>
+												<i class="fa fa-twitter"></i>
 												<strong>&nbsp;August 18 2016</strong>
 											</div>
 										</li>
@@ -736,7 +738,7 @@
 												<a target="blank" title="https://t.co/TgHIR0XM49" href="https://t.co/TgHIR0XM49">https://t.co/TgHIR0XM49</a>
 												<a target="blank" title="girlsintech" href="http://twitter.com/search?q=%23girlsintech">#girlsintech</a> https:…
 												<br>
-												<i class="icon-twitter2"></i>
+												<i class="fa fa-twitter"></i>
 												<strong>&nbsp;August 18 2016</strong>
 											</div>
 										</li>
@@ -746,7 +748,7 @@
 												<a target="blank" title="Envato" href="http://twitter.com/search?q=%23Envato">#Envato</a> T-Shirt?
 												<a target="blank" title="https://t.co/02NRoE1lWm" href="https://t.co/02NRoE1lWm">https://t.co/02NRoE1lWm</a>
 												<br>
-												<i class="icon-twitter2"></i>
+												<i class="fa fa-twitter"></i>
 												<strong>&nbsp;August 17 2016</strong>
 											</div>
 										</li>
@@ -763,11 +765,7 @@
 		</main>
 		<div class="clear"></div>
 
-
-
-
 		<!-- Footer -->
-
 		<footer>
 
 			<div class="newsletter-section">
@@ -808,7 +806,7 @@
 							<form class="newsletter-from" action="javascript:cs_mailchimp_submit(&#39;http://uoce.chimpgroup.com/wp-content/themes/uoc&#39;,&#39;1&#39;,&#39;http://uoce.chimpgroup.com/wp-admin/admin-ajax.php&#39;)"
 							 id="mcform_1" method="post">
 								<div id="newsletter_mess_1" style="display:none" class="cs-error-msg"></div>
-								<i class="icon-envelope4"></i>
+								<i class="glyphicon glyphicon-envelope"></i>
 								<input id="cs_list_id" type="hidden" name="cs_list_id" value="0">
 								<input type="email" id="mc_email" name="mc_email" placeholder=" Enter Valid Email Address">
 								<input type="submit" id="btn_newsletter_1" value="Submit">
@@ -829,21 +827,21 @@
 							</div>
 							<ul>
 								<li>
-									<i class="icon-map-marker"></i>
+									<i class="glyphicon glyphicon-map-marker"></i>
 									<p>123 Eccles Old Road New East London</p>
 								</li>
 								<li>
-									<i class="icon-phone6"></i>
+									<i class="glyphicon glyphicon-earphone"></i>
 									<p>
 										<span>Telephone</span>02 562-958, 02 562-958</p>
 								</li>
 								<li>
-									<i class="icon-dribbble6"></i>
+									<i class="glyphicon glyphicon-plane"></i>
 									<p>
 										<span>International</span> 123 500 500 500</p>
 								</li>
 								<li>
-									<i class="icon-envelope4"></i>
+									<i class="glyphicon glyphicon-envelope"></i>
 									<p>
 										<span>email</span>
 										<a href="mailto:info@chimpgroup.com">info@chimpgroup.com</a>
@@ -928,7 +926,7 @@
 										<a target="blank" title="creative" href="http://twitter.com/search?q=%23creative">#creative</a> journey.
 										<a target="blank" title="https://t.co/yqriX7dHWn" href="https://t.co/yqriX7dHWn">https://t.co/yqriX7dHWn</a>
 										<br>
-										<i class="icon-twitter2"></i>
+										<i class="fa fa-twitter"></i>
 										<strong>&nbsp;August 18 2016</strong>
 									</div>
 								</li>
@@ -941,7 +939,7 @@
 										<a target="blank" title="https://t.co/TgHIR0XM49" href="https://t.co/TgHIR0XM49">https://t.co/TgHIR0XM49</a>
 										<a target="blank" title="girlsintech" href="http://twitter.com/search?q=%23girlsintech">#girlsintech</a> https:…
 										<br>
-										<i class="icon-twitter2"></i>
+										<i class="fa fa-twitter"></i>
 										<strong>&nbsp;August 18 2016</strong>
 									</div>
 								</li>
@@ -990,7 +988,7 @@
 						</div>
 						<div class="col-md-6">
 							<span id="backtop">
-								<i class="icon-arrow-up9"></i>
+								<i class="glyphicon glyphicon-menu-up"></i>
 							</span>
 
 							<div class="social-media">
@@ -998,22 +996,22 @@
 								<ul>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-facebook2 " data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-facebook" data-original-title="Facebook" href="https://www.facebook.com/" target="_blank">
 										</a>
 									</li>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-dribbble7 " data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-dribbble" data-original-title="Dribbble" href="https://dribbble.com/" target="_blank">
 										</a>
 									</li>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-twitter2 " data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-twitter" data-original-title="Twitter" href="https://www.twitter.com/" target="_blank">
 										</a>
 									</li>
 
 									<li>
-										<a style="color:#cccccc;" class="icon-behance2 " data-original-title="Behance" href="https://www.behance.net/" target="_blank">
+										<a style="color:#cccccc;" class="fa fa-behance" data-original-title="Behance" href="https://www.behance.net/" target="_blank">
 										</a>
 									</li>
 								</ul>
