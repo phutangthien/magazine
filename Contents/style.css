@@ -1237,7 +1237,7 @@ ul li ul li ul li {
 }
 .page-sidebar .widget_categories ul li a:before {
 	content: "\f101";
-	font-family: 'icomoon';
+	font-family: 'FontAwesome';
 	float: left;
 	color: #9f9f9f;
 	margin: 0px 10px 0px 0px;
@@ -8028,7 +8028,7 @@ figure.wow.slide{ margin: 0; padding: 0;}
 }
 .cat-multicolor ul li a:before {
 	content: "\f101";
-	font-family: 'icomoon';
+	font-family: 'FontAwesome';
 	color: #9f9f9f;
 	font-size: 11px;
 	position: absolute;
