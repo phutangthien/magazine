@@ -4213,8 +4213,8 @@ max-width: 50%;
   background-color: #d7d7d7;
     border-radius: 100%;
     color: #fff !important;
-    content: "\ea5d";
-    font-family: "icomoon";
+    content: "\f067";
+    font-family: "FontAwesome";
     font-size: 15px;
     height: 18px;
     line-height: 15px;
@@ -4225,6 +4225,7 @@ max-width: 50%;
     top: 0;
     width: 18px;
 }
+
 .panel-group.cs-default.simple .panel-heading a:before {
 	content: "\ea55";
 	padding: 3px 0 0;
@@ -4270,11 +4271,11 @@ max-width: 50%;
 .panel-group.cs-default.modern .panel-heading a.collapsed{ color: #333 !important; }
 .panel-group.cs-default.modern .panel-heading a:before{
 	position: absolute;
-	content: "\eaaf";
+	content: "\f054";
 	top:0;
 	right:0;
 	font-size: 18px;
-	font-family: "icomoon";
+	font-family: "FontAwesome";
 	color:#333;
 }
 .panel-group.cs-default.modern .panel-heading a.collapsed:before{
@@ -4282,8 +4283,8 @@ max-width: 50%;
 	top:2px;
 	right:0;
 	font-size: 15px;
-	font-family: "icomoon";
-	content: "\eaad";
+	font-family: "FontAwesome";
+	content: "\f054";
 	color: #333 !important;
 }
 .panel-group.cs-default.modern .panel-body p
@@ -4454,17 +4455,17 @@ max-width: 50%;
 	height: 12px;
 	color: #fff;
 	top: 4px;
-	content: "\eab1";
+	content: "\f105";
 	font-size: 11px;
 	padding: 1px 0 0;
 	text-align: center;
 	line-height: 12px;
 	border-radius: 100%;
 	background-color: #999 !important;
-	font-family: "icomoon";
+	font-family: "FontAwesome";
 }
 .cs-list .panel-heading a:before {
-	content: "\eaaf";
+	content: "\f105";
 	position: absolute;
 	left: 0;
 	width: 12px;
@@ -4475,7 +4476,7 @@ max-width: 50%;
 	text-align: center;
 	line-height: 10px;
 	border-radius: 100%;
-	font-family: "icomoon";
+	font-family: "FontAwesome";
 	padding: 2px 0 0;
 	text-indent: -0.2px;
 }
