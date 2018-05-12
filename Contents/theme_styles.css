@@ -14,7 +14,7 @@
 .cs-gallery-nav li a:hover,.cs-gallery-nav li.active a,.cat-multicolor ul li:hover a:before,.cs-campunews ul li:hover .cs-campus-info h6 a, .news-ticker .flex-direction-nav li a:hover i
 , .cs-custom-nav .owl-nav .owl-prev:hover i, .cs-custom-nav .owl-nav .owl-next:hover i, .cs-gallery ul li:hover h6 a, .cs-filterable .cs-views li:hover i,
 .cs-team-slider .flex-direction-nav li a:hover, .testimonial-slider .flex-direction-nav li a:hover, .cs-detail-area .address-box .price-box a:hover, .grid-filter li a:hover, .events-listing .text h2 a:hover  , .cs-courses.listing-view article:hover h2 a , .active  article:hover .cs-text h2 , .element-size-33 .cs-services:hover .text h4, .widget_timing .timing-details li time:before, .loader, .cs-filterable .cs-views li.active i, .panel-group.cs-default.modern .panel-heading a:before , .panel-group.cs-default.modern .panel-heading a:hover:before, .panel-group.cs-default.modern .panel-heading a ,.panel-group.cs-default.modern .panel-heading a:hover, .panel-group.cs-default.simple .panel-heading a:before , .panel-group.cs-default.simple .panel-heading a ,.panel-group.cs-default.simple .panel-heading a:hover, .top-nav ul li a:hover, .header-search label:hover:before, .widget_tabs .tab-nav li:hover.active i, .widget ul li:hover, footer #footer-widget a:hover, .emaildiv:hover, .under-wrapp .date .digit, .fc-icon-left-single-arrow:hover:after, .fc-icon-right-single-arrow:hover:after{
- color:#08387f !important;
+ /* color:#08387f !important; */
 }
 /*!
 * Theme Background Color */

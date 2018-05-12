@@ -121,8 +121,8 @@ jQuery(document).ready(function () {
             nav: true,
             dots: false,
             navText: [
-                "<i class='icon-arrow-left10'></i>",
-                "<i class='icon-arrow-right10'></i>"
+                "<i class='glyphicon glyphicon-chevron-left'></i>",
+                "<i class='glyphicon glyphicon-chevron-right'></i>"
             ],
             responsive: {
                 0: {

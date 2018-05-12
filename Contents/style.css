@@ -1685,7 +1685,7 @@ ul li ul li ul li {
 	color: #fff;
 }
 .cs-courses.listing-view .course-info .courses-btn a i {
-	/* padding-top:10px; */
+	padding-top:10px;
 	font-size: 20px;
 	color: #a8a8a8;
 	margin: -3px 0 0 0;
@@ -1693,11 +1693,6 @@ ul li ul li ul li {
 .listing-view.list-2 article .cs-text {
 	position: relative;
 }
-/*.listing-view.list-2 article .course-tags {
-	right: 5px;
-    position: absolute;
-	top: 0;
-}*/
 .cs-courses.listing-view .course-info figure{
 	width:32px;
 	height: 32px;
@@ -2262,15 +2257,15 @@ ul li ul li ul li {
   position: relative;
 }
 .cs-gallery-slider #slider .flex-pauseplay a:before {
-  content: "\ea89";
-  font-family: 'icomoon';
+  content: "\f04c";
+  font-family: 'FontAwesome';
   position: absolute;
   left: 6px;
   top: 3px;
   color: #ffffff;
   text-indent: 0px;
 }
-.cs-gallery-slider #slider .flex-pauseplay a.flex-play:before { content: "\ea88"; }
+.cs-gallery-slider #slider .flex-pauseplay a.flex-play:before { content: "\f04c"; }
 .cs-gallery-slider #carousel .flex-direction-nav{ display: none; }
 /*.cs-gallery-slider #carousel .flex-viewport{ margin: 0 0 0 -8px; }*/
 .cs-gallery-slider #carousel .flex-viewport li{
@@ -2451,8 +2446,8 @@ footer .newsletter-section .cs-error-msg {
 }
 .widget_gallery .gallery-list li a:after {
     color: #fff;
-    content: "\f112";
-    font-family: 'icomoon';
+    content: "\f064";
+    font-family: 'FontAwesome';
     font-size: 12px;
     left: 50%;
     margin: -12px 0 0 -6px;
@@ -4227,7 +4222,8 @@ max-width: 50%;
 }
 
 .panel-group.cs-default.simple .panel-heading a:before {
-	content: "\ea55";
+	color:#ffffff!important;
+	content: "\f067";
 	padding: 3px 0 0;
 	background-color: #838383;
 	-webkit-transition: all .3s ease-in-out;

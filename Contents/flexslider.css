@@ -154,15 +154,15 @@ html[xmlns] .flexslider .slides {
   position: relative;
 }
 .flexslider .flex-pauseplay a:before {
-  content: "\ea89";
-  font-family: 'icomoon';
+  content: "\f04c";
+  font-family: 'FontAwesome';
   position: absolute;
   left: 6px;
   top: 5px;
   color: #ffffff;
   text-indent: 0px;
 }
-.flexslider .flex-pauseplay a.flex-play:before { content: "\ea88"; }
+.flexslider .flex-pauseplay a.flex-play:before { content: "\f04c"; }
 .flex-direction-nav .flex-disabled {
   opacity: 0!important;
   filter: alpha(opacity=0);

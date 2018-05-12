@@ -10,7 +10,7 @@
 }
 .icon-spin{display:inline-block;-webkit-animation:icon-spin 2s infinite linear;animation:icon-spin 2s infinite linear}@-webkit-keyframes icon-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes icon-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+	font-family: 'FontAwesome';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -2865,7 +2865,7 @@
 	content: "\eaad";
 }
 .icon-arrow-left10:before {
-	content: "\eaae";
+	content: "\f053";
 }
 .icon-arrow-down10:before {
 	content: "\eaaf";
@@ -2874,7 +2874,7 @@
 	content: "\eab0";
 }
 .icon-arrow-right10:before {
-	content: "\eab1";
+	content: "\f054";
 }
 .icon-arrow-left11:before {
 	content: "\eab2";
